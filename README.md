@@ -21,7 +21,7 @@ This project demonstrates a simple but production-style **ETL pipeline**:
 
 ```
 ├── data/
-├── notebooks/
+├── python files/
 ├── sql/
 ├── src/
 └── README.md
