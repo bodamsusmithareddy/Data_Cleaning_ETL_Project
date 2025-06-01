@@ -1,15 +1,15 @@
 
 # Data Cleaning & ETL Project (CSV → Postgres)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project demonstrates a simple but production-style **ETL pipeline**:
 
-✅ Extract raw data from CSV  
-✅ Clean and transform data (remove nulls, fix casing, deduplicate)  
-✅ Load cleaned data into a **Postgres database**  
+Extract raw data from CSV  
+Clean and transform data (remove nulls, fix casing, deduplicate)  
+Load cleaned data into a **Postgres database**  
 
-## 📚 Tech Stack
+## Tech Stack
 
 - Python 3.9+
 - Pandas
@@ -17,7 +17,7 @@ This project demonstrates a simple but production-style **ETL pipeline**:
 - PostgreSQL
 - Jupyter Notebook
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 ├── data/
@@ -27,9 +27,9 @@ This project demonstrates a simple but production-style **ETL pipeline**:
 └── README.md
 ```
 
-## 🛠 How to Run
+##  How to Run
 
-1️⃣ Create virtualenv:
+1️ Create virtualenv:
 
 ```bash
 python3 -m venv venv
@@ -37,19 +37,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2️⃣ Run ETL script:
+2️ Run ETL script:
 
 ```bash
 python src/etl.py
 ```
 
-3️⃣ Open notebook:
+3️ Open notebook:
 
 ```bash
 jupyter notebook notebooks/data_cleaning.ipynb
 ```
 
-## 🗄 Database Schema
+## Database Schema
 
 ```sql
 CREATE TABLE customers (
@@ -61,6 +61,6 @@ CREATE TABLE customers (
 );
 ```
 
-## 🚀 Author
+## Author
 
 Built as part of my Data Engineering Learning by Susmitha Reddy Bodam.
